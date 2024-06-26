@@ -86,3 +86,11 @@ a{
       
     }
   } 
+@media screen and (max-width: 400px) {
+    #option {
+      /* margin-top: 100px; */
+        display: block; /* The width is 100%, when the viewport is 800px or smaller */
+text-align: center;
+
+      }
+    }
