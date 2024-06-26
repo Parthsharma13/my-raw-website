@@ -1,38 +1,88 @@
-.App {
+#logo{
+  margin-top: px;
+  /* font-size: 50px; */
   text-align: center;
 }
+#logo>img{
+  max-width: 100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+article{
+  text-align: center;
+  font-size: larger;
+  margin: 120px 450px;
+  /* background-color: whitesmoke; */
+  box-shadow: 0px 0px 5px;
+  padding:50px;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  word-spacing: 5px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+li{
+  margin-top: 30px;
+  /* padding: 20px 50px; */
+  margin-bottom: 95px;
+  
+}
+li a:hover{
+  background-color: #f26535;
+  color: black;
+  transition: 0.4s;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+}
+#option{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: large;
+  padding: 0px;
+  font-weight: 500;
+  /* margin-bottom: 95px; */
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+a{
+  text-decoration: none;
+  color: black;
+  padding: 20px 50px;
+  
+}
+@media screen and (max-width: 1310px) {
+#option {
+  /* margin-top: 100px; */
+    flex-flow: wrap; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+@media screen and (max-width: 1310px) {
+#option>li {
+  margin-bottom: 50px;
+     /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+@media screen and (max-width: 1450px) {
+  article {
+     /* The width is 100%, when the viewport is 800px or smaller */
+     margin-left: 300px;
+     margin-right: 300px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  article {
+     /* The width is 100%, when the viewport is 800px or smaller */
+     margin-left: 200px;
+     margin-right: 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  article {
+     /* The width is 100%, when the viewport is 800px or smaller */
+     display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #option {
+    margin-top: 150px;
+      
+    }
+  } 

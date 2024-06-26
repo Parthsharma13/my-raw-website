@@ -1,0 +1,24 @@
+#option1{
+  display: flex;
+  list-style: none;
+  /* margin-top: 95px; */
+  justify-content: center;
+  font-family: sans-serif;
+  /* font-weight: 500; */
+}
+#option1>li>a{
+  border: 1px solid black;
+}
+#option1>li{
+  margin: 5px;
+  margin-top: 80px;
+  /* font-weight: 500; */
+}
+#option1>li>a{
+  /* margin: 5px; */
+  font-weight: 600;
+  word-spacing: 5px;
+}
+/* #maincontent>li{
+  margin: 0;
+} */
